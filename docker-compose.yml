@@ -10,6 +10,7 @@ services:
       - ORACLE_PWD=Oracle_123
     volumes:
       - ./init-scripts:/opt/hr
+      - ./oracle_data:/opt/oracle/oradata  # This is the persistent volume
       # - ./run-hr-setup.sh:/opt/run-hr-setup.sh
     # entrypoint: ["/bin/bash", "-c", "/opt/run-hr-setup.sh && /bin/bash /opt/oracle/runOracle.sh"]
     shm_size: '1g'
