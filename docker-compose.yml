@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   oracle-db:
     image: container-registry.oracle.com/database/free:latest
@@ -10,7 +8,8 @@ services:
       - ORACLE_PWD=Oracle_123
     volumes:
       - ./init-scripts:/opt/hr
-      - ./oracle_data:/opt/oracle/oradata  # This is the persistent volume
-      # - ./run-hr-setup.sh:/opt/run-hr-setup.sh
-    # entrypoint: ["/bin/bash", "-c", "/opt/run-hr-setup.sh && /bin/bash /opt/oracle/runOracle.sh"]
+      - oracle_data:/opt/oracle/oradata  # This is the persistent volume
     shm_size: '1g'
+
+volumes:
+  oracle_data:
