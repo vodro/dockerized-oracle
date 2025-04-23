@@ -26,9 +26,9 @@ Download the [HR sample schema files](https://github.com/oracle/db-sample-schema
 > Note: You must accept Oracle’s license to download and use these.
 
 ### 3. Start the Container
-change directory to `dockerized-oracle` and run in terminal.
+change directory to `dockerized-oracle` and run in terminal. In Linux you may need `sudo`. 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 Wait several minutes for the database to fully initialize. You can monitor progress with:
@@ -76,7 +76,7 @@ sqlplus hr@//localhost:1521/FREEPDB1
 From Navicat or VS Code:
 
 - **Username**: `hr`
-- **Password**: [password you set during HR install]
+- **Password**: [password you set during HR installation]
 - **Host**: `localhost`
 - **Port**: `1521`
 - **Service Name**: `FREEPDB1`
