@@ -16,7 +16,7 @@ This repository provides a simple Docker Compose setup for running the Oracle Da
 
 ### 2. Setup
 
-Download the [HR sample schema files](https://github.com/oracle/db-sample-schemas) from Oracle's GitHub and copy the following SQL files into the `init-scripts/` directory:
+Download the [HR sample schema files](https://github.com/oracle/db-sample-schemas) from Oracle's GitHub and copy the following SQL files into the `init-scripts/` directory (already downloaded) :
 
 - `hr_create.sql`
 - `hr_code.sql`
