@@ -26,7 +26,7 @@ Download the [HR sample schema files](https://github.com/oracle/db-sample-schema
 > Note: You must accept Oracle’s license to download and use these.
 
 ### 3. Start the Container
-
+change directory to `dockerized-oracle` and run in terminal.
 ```bash
 docker-compose up -d
 ```
@@ -68,8 +68,12 @@ ALTER SESSION SET CONTAINER=FREEPDB1;
 Follow the script prompts to complete the schema installation.
 
 ### 5. Connect to the HR User
+To access via terminal 
+```bash
+sqlplus hr@//localhost:1521/FREEPDB1
+```
 
-From SQL Developer or VS Code:
+From Navicat or VS Code:
 
 - **Username**: `hr`
 - **Password**: [password you set during HR install]
