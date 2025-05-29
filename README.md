@@ -70,7 +70,7 @@ Follow the script prompts to complete the schema installation.
 ### 5. Connect to the HR User
 To access via terminal 
 ```bash
-sqlplus hr@//localhost:31521/FREEPDB1
+sqlplus hr@//localhost:1521/FREEPDB1
 ```
 
 From Navicat or VS Code:
@@ -78,7 +78,7 @@ From Navicat or VS Code:
 - **Username**: `hr`
 - **Password**: [password you set during HR installation]
 - **Host**: `localhost`
-- **Port**: `31521`
+- **Port**: `1521`
 - **Service Name**: `FREEPDB1`
 
 ## 🗑️ Cleanup
