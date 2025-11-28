@@ -68,7 +68,7 @@ ALTER SESSION SET CONTAINER=FREEPDB1;
 Follow the script prompts to complete the schema installation.
 
 ### 5. Connect to the HR User
-To access via terminal 
+To access via terminal (inside container) 
 ```bash
 sqlplus hr@//localhost:1521/FREEPDB1
 ```
