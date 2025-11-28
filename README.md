@@ -78,7 +78,7 @@ From Navicat or VS Code:
 - **Username**: `hr`
 - **Password**: [password you set during HR installation]
 - **Host**: `localhost`
-- **Port**: `1521`
+- **Port**: `31521`
 - **Service Name**: `FREEPDB1`
 
 ## 🗑️ Cleanup
