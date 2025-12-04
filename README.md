@@ -82,7 +82,7 @@ To access via terminal (inside container)
 sqlplus hr@//localhost:1521/FREEPDB1
 ```
 
-From Navicat or VS Code:
+From Navicat or VS Code (install _Oracle SQL Developer extension_ for VS Code):
 
 - **Username**: `hr`
 - **Password**: [password you set during HR installation]
