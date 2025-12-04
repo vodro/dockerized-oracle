@@ -21,6 +21,8 @@ git clone https://github.com/vodro/dockerized-oracle.git
 - Docker
 - Docker Compose
 
+You may follow [this link](https://medium.com/@piyushkashyap045/comprehensive-guide-installing-docker-and-docker-compose-on-windows-linux-and-macos-a022cf82ac0b) to install Docker in your machine. 
+
 ### 2. Setup
 
 Download the [HR sample schema files](https://github.com/oracle/db-sample-schemas) from Oracle's GitHub and copy the following SQL files into the `init-scripts/` directory (**already downloaded** in the repo) :
